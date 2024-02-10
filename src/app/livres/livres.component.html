@@ -1,0 +1,7 @@
+<!-- livres.component.html -->
+<div *ngFor="let livre of livres">
+    <h2>{{ livre.titre }}</h2>
+    <p>{{ livre.resume }}</p>
+    <img [src]="livre.image" alt="{{ livre.titre }}">
+  </div>
+  
